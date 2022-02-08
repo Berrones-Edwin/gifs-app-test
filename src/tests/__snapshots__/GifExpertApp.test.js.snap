@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests in zGifExpertApp /> should render a list categories 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="random"
+      key="random"
+    />
+    <GifGrid
+      category="other categorie"
+      key="other categorie"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`tests in zGifExpertApp /> should show component successfully 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
